@@ -30,8 +30,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/m3db/prometheus_client_golang/prometheus"
+	"github.com/m3db/prometheus_client_golang/prometheus/promhttp"
 )
 
 func testHandler(t testing.TB) {

@@ -13,7 +13,7 @@
 
 package prometheus_test
 
-import "github.com/prometheus/client_golang/prometheus"
+import "github.com/m3db/prometheus_client_golang/prometheus"
 
 // ClusterManager is an example for a system that might have been built without
 // Prometheus in mind. It models a central manager of jobs running in a
