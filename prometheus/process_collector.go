@@ -13,7 +13,7 @@
 
 package prometheus
 
-import "github.com/prometheus/procfs"
+import "github.com/m3db/prometheus_procfs"
 
 type processCollector struct {
 	pid             int

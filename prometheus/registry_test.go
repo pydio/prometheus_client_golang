@@ -25,10 +25,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prometheus/common/expfmt"
+	"github.com/m3db/prometheus_common/expfmt"
 
 	"github.com/m3db/prometheus_client_golang/prometheus"
 	"github.com/m3db/prometheus_client_golang/prometheus/promhttp"

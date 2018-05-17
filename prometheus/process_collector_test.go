@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/prometheus/common/expfmt"
-	"github.com/prometheus/procfs"
+	"github.com/m3db/prometheus_common/expfmt"
+	"github.com/m3db/prometheus_procfs"
 )
 
 func TestProcessCollector(t *testing.T) {

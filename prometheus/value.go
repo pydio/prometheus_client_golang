@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync/atomic"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 
 	"github.com/golang/protobuf/proto"
 )

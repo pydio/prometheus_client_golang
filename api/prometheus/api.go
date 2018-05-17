@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prometheus/common/model"
+	"github.com/m3db/prometheus_common/model"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 )

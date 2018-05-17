@@ -23,7 +23,7 @@ import (
 	"github.com/beorn7/perks/quantile"
 	"github.com/golang/protobuf/proto"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 )
 
 // quantileLabel is used for the label that defines the quantile in a

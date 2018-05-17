@@ -20,7 +20,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 )
 
 func listenGaugeStream(vals, result chan float64, done chan struct{}) {

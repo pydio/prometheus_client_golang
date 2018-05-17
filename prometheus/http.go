@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/prometheus/common/expfmt"
+	"github.com/m3db/prometheus_common/expfmt"
 )
 
 // TODO(beorn7): Remove this whole file. It is a partial mirror of

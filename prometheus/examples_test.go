@@ -22,8 +22,8 @@ import (
 	"sort"
 	"strings"
 
-	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/expfmt"
+	dto "github.com/m3db/prometheus_client_model/go"
+	"github.com/m3db/prometheus_common/expfmt"
 
 	"github.com/golang/protobuf/proto"
 
